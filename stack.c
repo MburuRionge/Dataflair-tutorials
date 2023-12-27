@@ -47,7 +47,7 @@ void push()
     int element;
     if (top == LIMIT - 1)
     {
-        printf("Stack underflow\n")
+        printf("Stack underflow\n");
     }
     else
     {
@@ -58,7 +58,7 @@ void push()
     }
 }
 
-void pop();
+void pop()
 {
     int element;
     if (top == -1)
@@ -77,7 +77,7 @@ void display()
 {
     if (top == -1)
     {
-        printf("Stack underflow\n")
+        printf("Stack underflow\n");
     }
     else if (top > 0)
     {
